@@ -2,26 +2,25 @@
 
 using namespace NESStudio;
 
-void MakeSineWave(Int16 * samples, int numSamples, int rate)
-{
-	for (int i = 0; i < numSamples; i++)
-		samples[i] = 32768 * sin(((double)i / rate) * 2.0 * M_PI);
-}
-
 Studio::Studio()
 {
+	pulse1.Init(C4);
+	pulse2.Init(G4);
 
+	triangle.Init(C3);
 }
 
-void Studio::Play()
+void Studio::PlayPulse1()
 {
-	numSamples = 32 * 1024;
-	samples = new Int16[numSamples];
-	MakeSineWave(samples, numSamples, 32);
-	buffer = new SoundBuffer();
-	bool result =
-	    buffer->LoadFromSamples(samples, numSamples, 2, numSamples);
-	Sound *sound = new Sound;
-	sound->SetBuffer(*buffer);
-	sound->Play();
+	pulse1.Play();
+}
+
+void Studio::PlayPulse2()
+{
+	pulse2.Play();
+}
+
+void Studio::PlayTriangle()
+{
+	triangle.Play();
 }

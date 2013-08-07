@@ -1,3 +1,6 @@
+#ifndef _APP_H
+#define _APP_H
+
 #include "wx/wx.h"
 
 #include "Studio.h"
@@ -15,7 +18,6 @@ private:
 
 class Frame : public wxFrame {
 private:
-	wxButton * play;
 
 public:
 
@@ -26,7 +28,9 @@ public:
 	void OnAbout(wxCommandEvent & event);
 	void OnSave(wxCommandEvent & event);
 	void OnLoad(wxCommandEvent & event);
-	void OnPlay(wxCommandEvent & event);
+	void OnPlayPulse1(wxCommandEvent & event);
+	void OnPlayPulse2(wxCommandEvent & event);
+	void OnPlayTriangle(wxCommandEvent & event);
 
 	DECLARE_EVENT_TABLE()
 };
@@ -36,6 +40,9 @@ enum {
 	ID_About,
 	ID_Save,
 	ID_Load,
-	BUTTON_Play,
+	BUTTON_PlayPulse1,
+	BUTTON_PlayPulse2,
+	BUTTON_PlayTriangle,
 };
 }
+#endif

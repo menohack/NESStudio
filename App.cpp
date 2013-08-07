@@ -4,9 +4,19 @@ using namespace NESStudio;
 
 Studio * studio = new Studio();
 
-void Frame::OnPlay(wxCommandEvent & WXUNUSED(event))
+void Frame::OnPlayPulse1(wxCommandEvent & WXUNUSED(event))
 {
-	studio->Play();
+	studio->PlayPulse1();
+}
+
+void Frame::OnPlayPulse2(wxCommandEvent & WXUNUSED(event))
+{
+	studio->PlayPulse2();
+}
+
+void Frame::OnPlayTriangle(wxCommandEvent & WXUNUSED(event))
+{
+	studio->PlayTriangle();
 }
 
 BEGIN_EVENT_TABLE(Frame, wxFrame)
@@ -14,7 +24,9 @@ BEGIN_EVENT_TABLE(Frame, wxFrame)
     EVT_MENU(ID_About, Frame::OnAbout)
     EVT_MENU(ID_Save, Frame::OnSave)
     EVT_MENU(ID_Load, Frame::OnLoad)
-    EVT_BUTTON(BUTTON_Play, Frame::OnPlay)
+    EVT_BUTTON(BUTTON_PlayPulse1, Frame::OnPlayPulse1)
+    EVT_BUTTON(BUTTON_PlayPulse2, Frame::OnPlayPulse2)
+    EVT_BUTTON(BUTTON_PlayTriangle, Frame::OnPlayTriangle)
 END_EVENT_TABLE()
 
 
@@ -24,8 +36,6 @@ bool App::OnInit()
 
 	frame->Show(true);
 	SetTopWindow(frame);
-
-	//studio = new Studio();
 
 	return true;
 }
@@ -47,7 +57,12 @@ Frame::Frame(const wxString & title, const wxPoint & pos, const wxSize & size):w
 
 	wxPanel *panel = new wxPanel(this, wxID_ANY);
 
-	play = new wxButton(this, BUTTON_Play, _("Play"), wxPoint(20, 20));
+	wxBoxSizer * buttons = new wxBoxSizer( wxHORIZONTAL );
+	buttons->Add(new wxButton(this, BUTTON_PlayPulse1, _("Pulse 1")), 0, wxALIGN_CENTER);
+	buttons->Add(new wxButton(this, BUTTON_PlayPulse2, _("Pulse 2")), 0, wxALIGN_CENTER);
+	buttons->Add(new wxButton(this, BUTTON_PlayTriangle, _("Triangle")), 0, wxALIGN_CENTER);
+	SetSizer(buttons);
+
 
 	SetMenuBar(menuBar);
 	SetIcon(wxIcon(_("icon.xpm")));

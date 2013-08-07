@@ -1,5 +1,8 @@
-#include <SFML/Audio.hpp>
-#include <math.h>
+#ifndef _STUDIO_H
+#define _STUDIO_H
+
+#include "Pulse.h"
+#include "Triangle.h"
 
 using namespace sf;
 
@@ -9,13 +12,16 @@ namespace NESStudio
 class Studio
 {
 private:
-	Int16 * samples;
-	SoundBuffer * buffer;
-	unsigned numSamples;
+	Pulse pulse1, pulse2;
+	Triangle triangle;
+
 public:
 	Studio();
 
-	void Play();
+	void PlayPulse1();
+	void PlayPulse2();
+	void PlayTriangle();
 };
 
 }
+#endif
