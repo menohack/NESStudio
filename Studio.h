@@ -1,46 +1,21 @@
-#include "wx/wx.h"
 #include <SFML/Audio.hpp>
+#include <math.h>
 
 using namespace sf;
 
-namespace NESStudio {
+namespace NESStudio
+{
 
-class Frame;
-
-class Studio:public wxApp {
+class Studio
+{
 private:
-	Frame * frame;
-	SoundBuffer buffer;
-	Int16 *samples;
-
-	virtual bool OnInit();
-
+	Int16 * samples;
+	SoundBuffer * buffer;
+	unsigned numSamples;
 public:
-	void Play(wxCommandEvent & event);
+	Studio();
+
+	void Play();
 };
 
-class Frame:public wxFrame {
-private:
-	wxButton * play;
-
-public:
-
-	Frame(const wxString & title, const wxPoint & pos,
-	      const wxSize & size);
-
-	void OnQuit(wxCommandEvent & event);
-	void OnAbout(wxCommandEvent & event);
-	void OnSave(wxCommandEvent & event);
-	void OnLoad(wxCommandEvent & event);
-
-	 DECLARE_EVENT_TABLE()
-};
-
-enum {
-	ID_Quit = 1,
-	ID_About,
-	ID_Save,
-	ID_Load,
-	BUTTON_Play,
-};
 }
