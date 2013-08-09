@@ -19,7 +19,7 @@ void Triangle::Init(Note note)
 	numSamples = SAMPLING_RATE / 10;
 	samples = new Int16[numSamples];
 
-	MakeTriangleWave(samples, numSamples, SAMPLING_RATE/note, 4000);
+	MakeTriangleWave(samples, numSamples, SAMPLING_RATE/note, 16000);
 	
 	bool result = buffer.LoadFromSamples(samples, numSamples, 2, SAMPLING_RATE);
 
