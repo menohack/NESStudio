@@ -1,0 +1,12 @@
+NoteLengths1Tbl:
+LBF02:	.byte $06			;About    3/32 seconds ($B0)
+LBF03:	.byte $0C			;About    3/16 seconds ($B1)
+LBF04:	.byte $18			;About    3/8  seconds ($B2)
+LBF05:	.byte $30			;About    3/4  seconds ($B3)
+LBF06:	.byte $60			;About 1  1/2  seconds ($B4)
+LBF07:	.byte $24			;About    9/16 seconds ($B5)
+LBF08:	.byte $48			;About 1  3/16 seconds ($B6)
+LBF09:	.byte $12			;About    9/32 seconds ($B7)
+LBF0A:	.byte $10			;About    1/4  seconds ($B8)
+LBF0B:	.byte $08			;About    1/8  seconds ($B9)
+LBF0C:	.byte $03			;About    3/64 seconds ($BA)

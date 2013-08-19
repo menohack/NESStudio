@@ -1,0 +1,88 @@
+BrinstarSQ1IndexData:
+LB000:	.byte $C2			;
+LB001:	.byte $B4			;1 1/2 seconds	+
+LB002:	.byte $2E			;B3		| Repeat 2 times
+LB003:	.byte $30			;C4		+
+LB004:	.byte $FF			;
+LB005:	.byte $C3			;
+LB006:	.byte $B3			;3/4 seconds	+
+LB007:	.byte $2E			;B3		|
+LB008:	.byte $34			;D4		| Repeat 3 times
+LB009:	.byte $30			;C4		|
+LB00A:	.byte $3A			;F4		+
+LB00B:	.byte $FF			;
+LB00C:	.byte $B4			;1 1/2 seconds
+LB00d:	.byte $2E			;B3
+LB00E:	.byte $B3			;3/4 seconds
+LB00F:	.byte $30			;C4
+LB010:	.byte $34			;D4
+LB011:	.byte $C3			;
+LB012:	.byte $B6			;1 3/16 seconds	+
+LB013:	.byte $38			;E4		|
+LB014:	.byte $B9			;1/8 seconds	|
+LB015:	.byte $30			;C4		|
+LB016:	.byte $26			;G3		| Repeat 3 times
+LB017:	.byte $30			;C4		|
+LB018:	.byte $B3			;3/4 seconds	|
+LB019:	.byte $3A			;F4		|
+LB01A:	.byte $34			;D4		+
+LB01B:	.byte $FF			;
+LB01C:	.byte $B4			;1 1/2 seconds
+LB01D:	.byte $38			;E4
+LB01E:	.byte $38			;E4
+LB01F:	.byte $B2			;3/8 seconds
+LB020:	.byte $3A			;F4
+LB021:	.byte $30			;C4
+LB022:	.byte $2A			;A3
+LB023:	.byte $B9			;1/8 seconds
+LB024:	.byte $30			;C4
+LB025:	.byte $2C			;A#3
+LB026:	.byte $30			;C4
+LB027:	.byte $B2			;3/8 seconds
+LB028:	.byte $34			;D4
+LB029:	.byte $3A			;F4
+LB02A:	.byte $B3			;3/4 seconds
+LB02B:	.byte $30			;C4
+LB02C:	.byte $B2			;3/8 seconds
+LB02D:	.byte $36			;D#4
+LB02E:	.byte $2A			;A3
+LB02F:	.byte $22			;F3
+LB030:	.byte $B9			;1/8 seconds
+LB031:	.byte $18			;C3
+LB032:	.byte $2C			;A#3
+LB033:	.byte $18			;C3
+LB034:	.byte $B2			;3/8 seconds
+LB035:	.byte $1C			;D3
+LB036:	.byte $22			;F3
+LB037:	.byte $2C			;A#3
+LB038:	.byte $B9			;1/8 seconds
+LB039:	.byte $18			;C3
+LB03A:	.byte $22			;F3
+LB03B:	.byte $2A			;A3
+LB03C:	.byte $B3			;3/4 seconds
+LB03D:	.byte $2E			;B3
+LB03E:	.byte $2A			;A3
+LB03F:	.byte $26			;G3
+LB040:	.byte $34			;D4
+LB041:	.byte $B2			;3/8 seconds
+LB042:	.byte $36			;D#4
+LB043:	.byte $3A			;F4
+LB044:	.byte $28			;Ab3
+LB045:	.byte $B9			;1/8 seconds
+LB046:	.byte $26			;G3
+LB047:	.byte $22			;F3
+LB048:	.byte $1E			;D#3
+LB049:	.byte $B2			;3/8 seconds
+LB04A:	.byte $22			;F3
+LB04B:	.byte $2C			;A#3
+LB04C:	.byte $26			;G3
+LB04D:	.byte $B9			;1/8 seconds
+LB04E:	.byte $22			;F3
+LB04F:	.byte $44			;A#4
+LB050:	.byte $34			;D4
+LB051:	.byte $B4			;1 1/2 seconds
+LB052:	.byte $34			;D4
+LB053:	.byte $B3			;3/4 seconds
+LB054:	.byte $2E			;B3
+LB055:	.byte $26			;G3
+LB056:	.byte $00			;End Brinstar music

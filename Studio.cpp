@@ -1,5 +1,7 @@
 #include "Studio.h"
 
+#include "Song.h"
+
 using namespace NESStudio;
 
 Studio::Studio()
@@ -8,6 +10,9 @@ Studio::Studio()
 	pulse2.Init(G4);
 
 	triangle.Init(C3);
+
+	Song song;
+	song.Load("BrinstarSQ1", "MusicNotes", "NoteLengths1");
 }
 
 void Studio::PlayPulse1()

@@ -1,0 +1,15 @@
+NorfairNoiseIndexData:
+LB08B:	.byte $E0				;
+LB08C:	.byte $B2				;3/8 seconds	+
+LB08D:	.byte $01				;Drumbeat 00	|
+LB08E:	.byte $04				;Drumbeat 01	|
+LB08F:	.byte $04				;Drumbeat 01	|
+LB090:	.byte $01				;Drumbeat 00	|
+LB091:	.byte $04				;Drumbeat 01	| Repeat 32 times
+LB092:	.byte $04				;Drumbeat 01	|
+LB093:	.byte $B6				;1 3/16 seconds	|
+LB094:	.byte $04				;Drumbeat 01	|
+LB095:	.byte $04				;Drumbeat 01	|
+LB096:	.byte $B2				;3/8 seconds	|
+LB097:	.byte $01				;Drumbeat 00	+
+LB098:	.byte $FF				;

@@ -1,0 +1,192 @@
+MusicNotesTbl:
+LBE77:	.byte $07			;55.0Hz (A1)	Index #$00 (Not used)
+LBE78:	.byte $F0			;
+
+LBE79:	.byte $00			;No sound	Index #$02
+LBE7A:	.byte $00			;
+
+LBE7B:	.byte $06			;69.3Hz (C#2)	Index #$04
+LBE7C:	.byte $4E			;
+
+LBE7D:	.byte $05			;73.4Hz (D2)	Index #$06
+LBE7E:	.byte $F3			;
+
+LBE7F:	.byte $05			;82.4Hz (E2)	Index #$08
+LBE80:	.byte $4D			;
+
+LBE81:	.byte $05			;87.3Hz (F2)	Index #$0A
+LBE82:	.byte $01			;
+
+LBE83:	.byte $04			;92.5Hz (F#2)	Index #$0C
+LBE84:	.byte $B9			;
+
+LBE85:	.byte $04			;98.0Hz (G2)	Index #$0E
+LBE86:	.byte $75			;
+
+LBE87:	.byte $04			;103.8Hz (Ab2)	Index #$10
+LBE88:	.byte $35			;
+
+LBE89:	.byte $03			;110.0Hz (A2)	Index #$12
+LBE8A:	.byte $F8			;
+
+LBE8B:	.byte $03			;116.5Hz (A#2)	Index #$14
+LBE8C:	.byte $BF			;
+
+LBE8D:	.byte $03			;123.5Hz (B2)	Index #$16
+LBE8E:	.byte $89			;
+
+LBE8F:	.byte $03			;130.7Hz (C3)	Index #$18
+LBE90:	.byte $57			;
+
+LBE91:	.byte $03			;138.5Hz (C#3)	Index #$1A
+LBE92:	.byte $27			;
+
+LBE93:	.byte $02			;146.8Hz (D3)	Index #$1C
+LBE94:	.byte $F9			;
+
+LBE95:	.byte $02			;155.4Hz (D#3)	Index #$1E
+LBE96:	.byte $CF			;
+
+LBE97:	.byte $02			;164.8Hz (E3)	Index #$20
+LBE98:	.byte $A6			;
+
+LBE99:	.byte $02			;174.5Hz (F3)	Index #$22
+LBE9A:	.byte $80			;
+
+LBE9B:	.byte $02			;184.9Hz (F#3)	Index #$24
+LBE9C:	.byte $5C			;
+
+LBE9D:	.byte $02			;196.0Hz (G3)	Index #$26
+LBE9E:	.byte $3A			;	
+	
+LBE9F:	.byte $02			;207.6Hz (Ab3)	Index #$28
+LBEA0:	.byte $1A			;
+
+LBEA1:	.byte $01			;219.8Hz (A3)	Index #$2A
+LBEA2:	.byte $FC			;
+
+LBEA3:	.byte $01			;233.1Hz (A#3)	Index #$2C
+LBEA4:	.byte $DF			;
+
+LBEA5:	.byte $01			;247.0Hz (B3)	Index #$2E
+LBEA6:	.byte $C4			;
+
+LBEA7:	.byte $01			;261.4Hz (C4)	Index #$30
+LBEA8:	.byte $AB			;
+
+LBEA9:	.byte $01			;276.9Hz (C#4)	Index #$32
+LBEAA:	.byte $93			;
+
+LBEAB:	.byte $01			;293.6Hz (D4)	Index #$34
+LBEAC:	.byte $7C			;
+
+LBEAD:	.byte $01			;310.8Hz (D#4)	Index #$36
+LBEAE:	.byte $67			;
+
+LBEAF:	.byte $01			;330.0Hz (E4)	Index #$38
+LBEB0:	.byte $52			;
+
+LBEB1:	.byte $01			;349.6Hz (F4)	Index #$3A
+LBEB2:	.byte $3F			;
+
+LBEB3:	.byte $01			;370.4Hz (F#4)	Index #$3C
+LBEB4:	.byte $2D			;
+
+LBEB5:	.byte $01			;392.5Hz (G4)	Index #$3E
+LBEB6:	.byte $1C			;
+
+LBEB7:	.byte $01			;415.9Hz (Ab4)	Index #$40
+LBEB8:	.byte $0C			;
+
+LBEB9:	.byte $00			;440.4Hz (A4)	Index #$42
+LBEBA:	.byte $FD			;
+
+LBEBB:	.byte $00			;468.1Hz (A#4)	Index #$44
+LBEBC:	.byte $EE			;
+
+LBEBD:	.byte $00			;495.0Hz (B4)	Index #$46
+LBEBE:	.byte $E1			;
+
+LBEBF:	.byte $00			;525.2Hz (C5)	Index #$48
+LBEC0:	.byte $D4			;
+
+LBEC1:	.byte $00			;556.6Hz (C#5)	Index #$4A
+LBEC2:	.byte $C8			;
+
+LBEC3:	.byte $00			;588.8Hz (D5)	Index #$4C
+LBEC4:	.byte $BD			;
+
+LBEC5:	.byte $00			;625.0Hz (D#5)	Index #$4E
+LBEC6:	.byte $B2			;
+
+LBEC7:	.byte $00			;662.0Hz (E5)	Index #$50
+LBEC8:	.byte $A8			;
+
+LBEC9:	.byte $00			;699.2Hz (F5)	Index #$52
+LBECA:	.byte $9F			;
+
+LBECB:	.byte $00			;740.9Hz (F#5)	Index #$54
+LBECC:	.byte $96			;
+
+LBECD:	.byte $00			;787.9Hz (G5)	Index #$56
+LBECE:	.byte $8D			;
+
+LBECF:	.byte $00			;834.9Hz (Ab5)	Index #$58
+LBED0:	.byte $85			;
+
+LBED1:	.byte $00			;880.9HZ (A5)	Index #$5A
+LBED2:	.byte $7E			;
+
+LBED3:	.byte $00			;940.1Hz (A#5)	Index #$5C
+LBED4:	.byte $76			;
+
+LBED5:	.byte $00			;990.0Hz (B5)	Index #$5E
+LBED6:	.byte $70			;
+
+LBED7:	.byte $00			;1055Hz (C6)	Index #$60
+LBED8:	.byte $69			;
+
+LBED9:	.byte $00			;1118Hz (C#6)	Index #$62
+LBEDA:	.byte $63			;
+
+LBEDB: 	.byte $00			;1178Hz (D6)	Index #$64
+LBEDC:	.byte $5E			;
+
+LBEDD:	.byte $00			;1257Hz (D#6)	Index #$66
+LBEDE:	.byte $58			;
+
+LBEDF:	.byte $00			;1332Hz (E6)	Index #$68
+LBEE0:	.byte $53			;
+
+LBEE1:	.byte $00			;1398Hz (F6)	Index #$6A
+LBEE2:	.byte $4F			;
+
+LBEE3:	.byte $00			;1492Hz (F#6)	Index #$6C
+LBEE4:	.byte $4A			;
+
+LBEE5:	.byte $00			;1576Hz (G6)	Index #$6E
+LBEE6:	.byte $46			;
+
+LBEE7:	.byte $00			;1670Hz (Ab6)	Index #$70
+LBEE8:	.byte $42			;
+
+LBEE9:	.byte $00			;1776Hz (A6)	Index #$72
+LBEEA:	.byte $3E			;
+
+LBEEB:	.byte $00			;1896Hz (A#6)	Index #$74
+LBEEC:	.byte $3A			;
+
+LBEED:	.byte $00			;1998Hz (B6)	Index #$76
+LBEEE:	.byte $37			;
+
+LBEEF:	.byte $00			;2111Hz (C7)	Index #$78
+LBEF0:	.byte $34			;
+
+LBEF1:	.byte $00			;2238Hz (C#7)	Index #$7A
+LBEF2:	.byte $31			;
+
+LBEF3:	.byte $00			;2380Hz (D7)	Index #$7C
+LBEF4:	.byte $2E			;
+
+LBEF5:	.byte $00			;2796Hz (F7)	Index #$7E
+LBEF6:	.byte $27			;

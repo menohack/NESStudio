@@ -1,0 +1,54 @@
+NorfairTriangleIndexData:
+LB057:	.byte $C3				;
+LB058:	.byte $B1				;3/16 seconds	+
+LB059:	.byte $34				;D4		|
+LB05A:	.byte $02				;No sound	|
+LB05B:	.byte $3E				;G4		|
+LB05C:	.byte $02				;No sound	|
+LB05D:	.byte $42				;A4		|
+LB05E:	.byte $02				;No sound	|
+LB05F:	.byte $B3				;3/4 seconds	|
+LB060:	.byte $30				;C4		| Repeat 3 times
+LB061:	.byte $B1				;3/16 seconds	|
+LB062:	.byte $3A				;F4		|
+LB063:	.byte $02				;No sound	|
+LB064:	.byte $B2				;3/8 seconds	|
+LB065:	.byte $34				;D4		|
+LB066:	.byte $B3				;3/4 seconds	|
+LB067:	.byte $02				;No sound	|
+LB068:	.byte $30				;C4		|
+LB069:	.byte $02				;No sound	+
+LB06A:	.byte $FF				;
+LB06B:	.byte $C2				;
+LB06C:	.byte $B2				;3/8 seconds	+
+LB06D:	.byte $22				;F3		|
+LB06E:	.byte $30				;C4		|
+LB06F:	.byte $34				;D4		|
+LB070:	.byte $26				;G3		|
+LB071:	.byte $34				;D4		|
+LB072:	.byte $38				;E4		|
+LB073:	.byte $2C				;A#3		| Repeat 2 times
+LB074:	.byte $34				;D4		|
+LB075:	.byte $3A				;F4		|
+LB076:	.byte $B3				;3/4 seconds	|
+LB077:	.byte $18				;C3		|
+LB078:	.byte $B2				;3/8 seconds	|
+LB079:	.byte $2A				;A3		|
+LB07A:	.byte $02				;No sound	+
+LB07B:	.byte $FF				;
+LB07C:	.byte $C2				;
+LB07D:	.byte $B3				;3/4 seconds	+
+LB07E:	.byte $1C				;D3		|
+LB07F:	.byte $B2				;3/8 seconds	|
+LB080:	.byte $20				;E3		|
+LB081:	.byte $B3				;3/4 seconds	|
+LB082:	.byte $18				;C3		| Repeat 2 times
+LB083:	.byte $B2				;3/8 seconds	|
+LB084:	.byte $1C				;D3		|
+LB085:	.byte $14				;A#2		|
+LB086:	.byte $14				;A#2		|
+LB087:	.byte $02				;No sound	|
+LB088:	.byte $B6				;1 3/16 seconds	|
+LB089:	.byte $02				;No sound	+
+LB08A:	.byte $FF				;
+

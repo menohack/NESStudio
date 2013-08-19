@@ -1,0 +1,11 @@
+BrinstarNoiseIndexData:
+LB12B:	.byte $E8			;
+LB12C:	.byte $B2			;3/8 seconds	+
+LB12D:	.byte $04			;Drumbeat 01	|
+LB12E:	.byte $04			;Drumbeat 01	|
+LB12F:	.byte $04			;Drumbeat 01	| Repeat 40 times
+LB130:	.byte $B9			;1/8 seconds	|
+LB131:	.byte $04			;Drumbeat 01	|
+LB132:	.byte $04			;Drumbeat 01	|
+LB133:	.byte $04			;Drumbeat 01	+
+LB134:	.byte $FF			;

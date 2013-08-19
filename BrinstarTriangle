@@ -1,0 +1,107 @@
+BrinstarTriangleIndexData:
+LB0C1:	.byte $C4			;
+LB0C2:	.byte $B4			;1 1/2 seconds	+ Repeat 4 times
+LB0C3:	.byte $02			;No sound	+
+LB0C4:	.byte $FF			;
+LB0C5:	.byte $C3			;
+LB0C6:	.byte $B2			;3/8 seconds	+
+LB0C7:	.byte $26			;G3		|
+LB0C8:	.byte $B9			;1/8 seconds	|
+LB0C9:	.byte $26			;G3		|
+LB0CA:	.byte $3E			;G4		|
+LB0CB:	.byte $34			;D4		|
+LB0CC:	.byte $B2			;3/8 seconds	|
+LB0CD:	.byte $26			;G3		|
+LB0CE:	.byte $B9			;1/8 seconds	|
+LB0CF:	.byte $26			;G3		|
+LB0D0:	.byte $34			;D4		| Repeat 3 times
+LB0D1:	.byte $26			;G3		|
+LB0D2:	.byte $B2			;3/8 seconds	|
+LB0D3:	.byte $2C			;A#3		|
+LB0D4:	.byte $B9			;1/8 seconds	|
+LB0D5:	.byte $2C			;A#3		|
+LB0D6:	.byte $3A			;F4		|
+LB0D7:	.byte $2C			;A#3		|
+LB0D8:	.byte $B2			;3/8 seconds	|
+LB0D9:	.byte $2C			;A#3		|
+LB0DA:	.byte $B9			;1/8 seconds	|
+LB0DB:	.byte $2C			;A#3		|
+LBoDC:	.byte $3A			;F4		|
+LB0DD:	.byte $2C			;A#3		+
+LB0DE:	.byte $FF			;
+LB0DF:	.byte $C4			;
+LB0E0:	.byte $B2			;3/8 seconds	+
+LB0E1:	.byte $26			;G3		|
+LB0E2:	.byte $B9			;1/8 seconds	| Repeat 4 times
+LB0E3:	.byte $34			;D4		|
+LB0E4:	.byte $26			;G3		|
+LB0E5:	.byte $26			;G3		+
+LB0E6:	.byte $FF			;
+LB0E7:	.byte $D0			;
+LB0E8:	.byte $B9			;1/8 seconds	+				
+LB0E9:	.byte $18			;C3		|
+LB0EA:	.byte $26			;G3		| Repeat 16 times
+LB0EB:	.byte $18			;C3		|
+LB0EC:	.byte $B2			;3/8 seconds	|
+LB0ED:	.byte $18			;C3		+
+LB0EE:	.byte $FF			;
+LB0EF:	.byte $C2			;
+LB0F0:	.byte $B2			;3/8 seconds	+
+LB0F1:	.byte $1E			;D#3		|
+LB0F2:	.byte $B9			;1/8 seconds	|
+LB0F3:	.byte $1E			;D#3		|
+LB0F4:	.byte $18			;C3		|
+LB0F5:	.byte $1E			;D#3		|
+LB0F6:	.byte $B2			;3/8 seconds	|
+LB0F7:	.byte $1E			;D#3		|
+LB0F8:	.byte $B9			;1/8 seconds	|
+LB0F9:	.byte $1E			;D#3		|
+LB0FA:	.byte $18			;C3		| Repeat 2 times
+LB0FB:	.byte $1E			;D#3		|
+LB0FC:	.byte $B2			;3/8 seconds	|
+LB0FD:	.byte $1C			;D3		|
+LB0FE:	.byte $B9			;1/8 seconds	|
+LB0FF:	.byte $1C			;D3		|
+LB100:	.byte $14			;A#2		|
+LB101:	.byte $1C			;D3		|
+LB102:	.byte $B2			;3/8 seconds	|
+LB103:	.byte $1C			;D3		|
+LB104:	.byte $B9			;1/8 seconds	|
+LB105:	.byte $1C			;D3		|
+LB106:	.byte $14			;A#2		|
+LB107:	.byte $1C			;D3		+
+LB108:	.byte $FF			;
+LB109:	.byte $B2			;3/8 seconds
+LB10A:	.byte $26			;G3
+LB10B:	.byte $12			;A2
+LB10C:	.byte $16			;B2
+LB10D:	.byte $18			;C3
+LB10E:	.byte $1C			;D3
+LB10F:	.byte $20			;E3
+LB110:	.byte $24			;F#3
+LB111:	.byte $26			;G3
+LB112:	.byte $B2			;3/8 seconds
+LB113:	.byte $28			;Ab3
+LB114:	.byte $B9			;1/8 seconds
+LB115:	.byte $28			;Ab3
+LB116:	.byte $1E			;D#3
+LB117:	.byte $18			;C3
+LB118:	.byte $B2			;3/8 seconds
+LB119:	.byte $10			;Ab2
+LB11A:	.byte $B9			;1/8 seconds
+LB11B:	.byte $30			;C4
+LB11C:	.byte $2C			;A#3
+LB11D:	.byte $28			;Ab3
+LB11E:	.byte $B2			;3/8 seconds
+LB11F:	.byte $1E			;D#3
+LB120:	.byte $1C			;D3
+LB121:	.byte $18			;C3
+LB122:	.byte $14			;A#2
+LB123:	.byte $2A			;A3
+LB124:	.byte $2A			;A3
+LB125:	.byte $2A			;A3
+LB126:	.byte $2A			;A3
+LB127:	.byte $CC			;
+LB128:	.byte $B9			;1/8 seconds	+ Repeat 12 times
+LB129:	.byte $2A			;A3		+
+LB12A:	.BYTE $FF			;

@@ -1,0 +1,39 @@
+NorfairSQ1IndexData:
+LB000:	.byte $C3				;
+LB001:	.byte $B6				;1 3/16 seconds	+
+LB002:	.byte $26				;G3		|
+LB003:	.byte $B3				;3/4 seconds	|
+LB004:	.byte $22				;F3		|
+LB005:	.byte $B2				;3/8 seconds	| Repeat 3 times
+LB006:	.byte $2C				;A#3		|
+LB007:	.byte $B6				;1 3/16 seconds	|
+LB008:	.byte $26				;G3		|
+LB009:	.byte $B4				;1 1/2 seconds	|
+LB00A:	.byte $22				;F3		+
+LB00B:	.byte $FF				;
+LB00C:	.byte $C2				;
+LB00D:	.byte $B6				;1 3/16 seconds	+
+LB00E:	.byte $30				;C4		|
+LB00F:	.byte $34				;D4		|
+LB010:	.byte $B3				;3/4 seconds	|
+LB011:	.byte $3A				;F4		| Repeat 2 times
+LB012:	.byte $B1				;3/16 seconds	|
+LB013:	.byte $38				;E4		|
+LB014:	.byte $34				;D4		|
+LB015:	.byte $B4				;1 1/2 seconds	|
+LB016:	.byte $2A				;A3		+
+LB017:	.byte $FF				;
+LB018:	.byte $C2				;
+LB019:	.byte $B3				;3/4 seconds	+
+LB01A:	.byte $2A				;A3		|
+LB01B:	.byte $B2				;3/8 seconds	|
+LB01C:	.byte $2E				;B3		|
+LB01D:	.byte $B3				;3/4 seconds	|
+LB01E:	.byte $26				;G3		| Repeat 2 times
+LB01F:	.byte $B2				;3/8 seconds	|
+LB020:	.byte $2A				;A3		|
+LB021:	.byte $B6				;1 3/16 seconds	|
+LB022:	.byte $22				;F3		|
+LB023:	.byte $02				;No sound	+
+LB024:	.byte $FF				;
+LB025:	.byte $00				;End Norfair music

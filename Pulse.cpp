@@ -53,7 +53,6 @@ void Pulse::MakePulseWave(Int16 * samples, unsigned numSamples, unsigned rate, u
 }
 
 
-
 void Pulse::Play()
 {
 	sound.Play();

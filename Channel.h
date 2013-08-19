@@ -13,9 +13,14 @@ enum Note
 
 class Channel
 {
+protected:
+	double seconds;
+	int count;
 public:
-	void virtual Init(Note note) = 0;
-	void virtual Play() = 0;
+	void virtual Init() = 0;
+	void virtual Play(Note note) = 0;
+	void virtual SetNoteLength(double seconds);
+	void virtual SetLoopCount(int count);
 };
 
 }
